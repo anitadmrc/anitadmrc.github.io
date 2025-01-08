@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Personality Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>What Flower Are You?</h1>
+    <p>Take this fun quiz to discover which flower matches your personality!</p>
+  </header>
+  <main>
+    <div id="quiz-container">
+      <div id="quiz-question" class="quiz-box">
+        <h2 id="question-text"></h2>
+        <div id="answers-container"></div>
+      </div>
+      <button id="next-button" disabled>Next</button>
+    </div>
+    <div id="quiz-result" style="display: none;">
+      <h2>You are a <span id="result-flower-name"></span>!</h2>
+      <img id="result-flower-image" src="" alt="Flower Image" style="width: 300px; height: auto;">
+      <p id="result-description"></p>
+    </div>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+</html>
