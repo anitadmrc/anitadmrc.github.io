@@ -1,63 +1,87 @@
 // Questions and answers
 const questions = [
     {
-      question: "What's your ideal weekend activity?",
+      question: "How do you recharge after a long day?",
       answers: [
-        { text: "Reading a book in a cozy nook", flower: "lavender" },
-        { text: "Hiking or exploring nature", flower: "sunflower" },
-        { text: "Going out for a romantic dinner", flower: "rose" },
-        { text: "Relaxing at a park with friends", flower: "daisy" },
-        { text: "Enjoying springtime under blooming trees", flower: "cherryBlossom" },
-        { text: "Hosting a celebration with loved ones", flower: "chrysanthemum" },
-        { text: "Visiting a flower garden for inspiration", flower: "tulip" },
+        { text: "Zoning out with a book or taking a quiet bath", flower: "lavender" },
+        { text: "Blasting music and moving around to let off steam", flower: "sunflower" },
+        { text: "Venting to someone I trust or crying it out", flower: "rose" },
+        { text: "Scrolling through memes or watching funny videos", flower: "daisy" },
+        { text: "Going for a walk alone to clear my head", flower: "cherryBlossom" },
+        { text: "Making comfort food or organizing my space", flower: "chrysanthemum" },
+        { text: "Getting lost in a hobby or art project", flower: "tulip" },
       ],
     },
     {
-      question: "Pick a favorite color palette:",
+      question: "What's your approach when facing a challenge?",
       answers: [
-        { text: "Soft purples and pastels", flower: "lavender" },
-        { text: "Bright yellows and oranges", flower: "sunflower" },
-        { text: "Reds and deep pinks", flower: "rose" },
-        { text: "Light and airy whites", flower: "daisy" },
-        { text: "Pinks and pale pastels", flower: "cherryBlossom" },
-        { text: "Warm autumn tones", flower: "chrysanthemum" },
-        { text: "Bright, bold spring hues", flower: "tulip" },
+        { text: "Avoid it until I'm mentally ready to deal with it", flower: "lavender" },
+        { text: "Tackle it immediately before I overthink it", flower: "sunflower" },
+        { text: "Get emotional but push through anyway", flower: "rose" },
+        { text: "Try to laugh it off and not take it too seriously", flower: "daisy" },
+        { text: "Accept it's happening and figure it out as I go", flower: "cherryBlossom" },
+        { text: "Ask for help or look for advice from people I trust", flower: "chrysanthemum" },
+        { text: "Think outside the box even if it's unconventional", flower: "tulip" },
       ],
     },
     {
-      question: "How would your friends describe you?",
+      question: "What's your go-to drink?",
       answers: [
-        { text: "Calm and soothing", flower: "lavender" },
-        { text: "Optimistic and bold", flower: "sunflower" },
-        { text: "Passionate and timeless", flower: "rose" },
-        { text: "Cheerful and positive", flower: "daisy" },
-        { text: "Graceful and serene", flower: "cherryBlossom" },
-        { text: "Supportive and dependable", flower: "chrysanthemum" },
-        { text: "Creative and full of ideas", flower: "tulip" },
+        { text: "Herbal tea or chamomile", flower: "lavender" },
+        { text: "Orange juice or an energy drink", flower: "sunflower" },
+        { text: "Red wine or hot chocolate", flower: "rose" },
+        { text: "Lemonade or iced tea", flower: "daisy" },
+        { text: "Green tea or plain water", flower: "cherryBlossom" },
+        { text: "Coffee or hot tea with milk", flower: "chrysanthemum" },
+        { text: "Smoothies or fancy lattes", flower: "tulip" },
       ],
     },
     {
-      question: "What kind of weather makes you happiest?",
+      question: "What kind of music do you listen to?",
       answers: [
-        { text: "A calm, peaceful breeze with clear skies", flower: "lavender" },
-        { text: "Bright and sunny with a few clouds", flower: "sunflower" },
-        { text: "Warm with a hint of romance in the air", flower: "rose" },
-        { text: "Cool and breezy with fresh air", flower: "daisy" },
-        { text: "A light spring rain with soft petals in the air", flower: "cherryBlossom" },
-        { text: "Crisp autumn weather with a golden glow", flower: "chrysanthemum" },
-        { text: "A cool breeze with bright, colorful flowers blooming", flower: "tulip" },
+        { text: "Soft, calming, or instrumental music", flower: "lavender" },
+        { text: "Upbeat pop or dance music", flower: "sunflower" },
+        { text: "Romantic ballads or emotional songs", flower: "rose" },
+        { text: "Feel-good hits and sing-along songs", flower: "daisy" },
+        { text: "Lo-fi, acoustic, or indie music", flower: "cherryBlossom" },
+        { text: "Classic hits or music from my childhood", flower: "chrysanthemum" },
+        { text: "Whatever's new and trending right now", flower: "tulip" },
       ],
     },
     {
-      question: "Which of these would be your perfect vacation?",
+      question: "When you go shopping, you usually:",
       answers: [
-        { text: "A serene, peaceful retreat in the countryside", flower: "lavender" },
-        { text: "A fun-filled adventure in a vibrant city", flower: "sunflower" },
-        { text: "A romantic getaway to a beautiful vineyard", flower: "rose" },
-        { text: "A relaxing beach trip with close friends", flower: "daisy" },
-        { text: "A nature walk in a blossoming garden", flower: "cherryBlossom" },
-        { text: "A cultural journey to ancient temples", flower: "chrysanthemum" },
-        { text: "A trip to a colorful tulip festival", flower: "tulip" },
+        { text: "Buy exactly what you need and leave quickly", flower: "lavender" },
+        { text: "Browse everything and grab what catches your eye", flower: "sunflower" },
+        { text: "Look for quality items even if they cost more", flower: "rose" },
+        { text: "Go with friends and make it a fun outing", flower: "daisy" },
+        { text: "Stick to basics and avoid unnecessary purchases", flower: "cherryBlossom" },
+        { text: "Stock up on practical things you'll actually use", flower: "chrysanthemum" },
+        { text: "Hunt for unique or trendy pieces", flower: "tulip" },
+      ],
+    },
+    {
+      question: "How do you use social media?",
+      answers: [
+        { text: "Rarely - it's too overwhelming for me", flower: "lavender" },
+        { text: "Posting updates and sharing what I'm up to", flower: "sunflower" },
+        { text: "Sharing meaningful posts and staying connected", flower: "rose" },
+        { text: "Liking funny posts and commenting on friends' stuff", flower: "daisy" },
+        { text: "Mostly lurking, rarely posting anything", flower: "cherryBlossom" },
+        { text: "Keeping up with family and close friends", flower: "chrysanthemum" },
+        { text: "Discovering new trends and creative content", flower: "tulip" },
+      ],
+    },
+    {
+      question: "What's your ideal way to spend a free afternoon?",
+      answers: [
+        { text: "Napping, reading, or doing something low-key alone", flower: "lavender" },
+        { text: "Getting outside or doing something active", flower: "sunflower" },
+        { text: "Doing something romantic or going somewhere aesthetic", flower: "rose" },
+        { text: "Hanging with friends or binge-watching shows", flower: "daisy" },
+        { text: "Taking photos, journaling, or just wandering around", flower: "cherryBlossom" },
+        { text: "Cleaning, cooking, or catching up on errands", flower: "chrysanthemum" },
+        { text: "Working on a creative project or learning something new", flower: "tulip" },
       ],
     },
   ];
@@ -131,6 +155,25 @@ const questions = [
       const button = document.createElement("button");
       button.textContent = answer.text;
       button.onclick = function () {
+        // Remove selection from all buttons
+        const allButtons = answersContainer.querySelectorAll("button");
+        allButtons.forEach(btn => btn.classList.remove("selected"));
+        
+        // Add selection to clicked button
+        button.classList.add("selected");
+        
+        // Store the selected answer for this question
+        if (window.selectedAnswers === undefined) {
+          window.selectedAnswers = {};
+        }
+        
+        // Remove previous score if answer was changed
+        if (window.selectedAnswers[currentQuestionIndex] !== undefined) {
+          flowerScores[window.selectedAnswers[currentQuestionIndex]]--;
+        }
+        
+        // Add new score
+        window.selectedAnswers[currentQuestionIndex] = answer.flower;
         flowerScores[answer.flower]++;
         nextButton.disabled = false;
       };
